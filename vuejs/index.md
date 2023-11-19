@@ -1,5 +1,5 @@
 ---
-title: [latest]Vue3 GPT
+title: "[latest]Vue3 GPT"
 layout: page
 ---
 
