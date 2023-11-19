@@ -1,6 +1,5 @@
-# Site settings
-title: [latest]GPTs Knowledge Base
-description: >- # this means to ignore newlines until "baseurl:"
+title: \[latest]GPTs Knowledge Base
+description: >-
   Documentation and knowledge base for the [latest]GPTs project, 
   featuring GPT models for various programming libraries.
 baseurl: "" # the subpath of your site, e.g. /blog
