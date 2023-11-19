@@ -1,5 +1,5 @@
 # [latest]Vue3 GPT
-<img src="/assets/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">
+<img src="/assets/vuejs/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">
 Custom GPT coding assistants, equiped with knowledge of the latest Vue.js features and smart presets. 
 
 ## Available Versions
@@ -39,9 +39,9 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 
 | Version | Pass | Notes |
 |---------|------|-------|
-| latest | ✅ |
-| 3.3.0   | ✅   |  |
-| plain GPT | ❌ |
+| latest | ✅ ||
+| 3.3.0   | ✅ ||
+| plain GPT | ❌ ||
 ---
 - **Prompt:** `How can I style my components dynamically?`
 - **Difficulty:** 🟠 Medium
@@ -94,6 +94,6 @@ const emit = defineEmits<{
 ```
 | Version | Pass | Notes |
 |---------|------|-------|
-| latest | ✅ |
-| 3.3.0   | ✅   |  |
-| plain GPT | ❌ |
+| latest | ✅ ||
+| 3.3.0   | ✅ ||
+| plain GPT | ❌ ||
