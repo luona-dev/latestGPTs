@@ -12,9 +12,10 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-remote-theme: jekyll/minima # or another theme
+# remote-theme: jekyll/minima # or another theme
+theme: minima
 plugins:
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
   - jekyll-feed
   - jemoji
   - jekyll-titles-from-headings

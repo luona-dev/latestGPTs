@@ -29,7 +29,6 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 
 ### Version 3.2.0
 
-
 #### 🧪 v-bind in \<style>
 
 - **Prompt:** `Can I use v-bind in the style section?`
@@ -43,6 +42,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | latest | ✅ |   |
 | 3.3.0   | ✅ |   |
 | plain GPT | ❌ |   |
+
 ---
 - **Prompt:** `How can I style my components dynamically?`
 - **Difficulty:** 🟠 Medium
@@ -93,6 +93,7 @@ const emit = defineEmits<{
   bar: [name: string]
 }>()
 ```
+
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
