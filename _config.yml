@@ -14,9 +14,11 @@ header_pages:
 markdown: kramdown
 remote-theme: jekyll/minima # or another theme
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jemoji
-  - jekyll-remote-theme
+  - jekyll-titles-from-headings
+
 
 # Exclude from production build
 exclude:
@@ -34,8 +36,9 @@ paginate: 5 # amount of posts to show
 paginate_path: "/page:num/"
 
 # SEO settings
-author: luona.dev
-email: contact@luona.dev  
+author: 
+  name: luona.dev
+  email: contact@luona.dev  
 
 twitter_username: LuonaDev
 github_username:  luona-dev

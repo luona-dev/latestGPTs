@@ -1,6 +1,4 @@
----
-title: "[latest]Vue3 GPT"
----
+# [latest]Vue.js GPTs 
 
 <img src="/assets/vuejs/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">
 Custom GPT coding assistants, equiped with knowledge of the latest Vue.js features and smart presets. 
@@ -8,7 +6,7 @@ Custom GPT coding assistants, equiped with knowledge of the latest Vue.js featur
 ## Available Versions
 
 | GPT | Version | Last Update📅 | Notes🗒️ |
-|-|-|-|-|
+|---|---|---|---|
 | [[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.0 | 2023-11-17 | 😍 |
 | [[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) | ✖️ | 2023-11-17 | for testing purposes only |
 
@@ -41,10 +39,10 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 **Results:**
 
 | Version | Pass | Notes |
-|---------|------|-------|
-| latest | ✅ | |
-| 3.3.0   | ✅ | |
-| plain GPT | ❌ | |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0   | ✅ |   |
+| plain GPT | ❌ |   |
 ---
 - **Prompt:** `How can I style my components dynamically?`
 - **Difficulty:** 🟠 Medium
@@ -53,10 +51,10 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 **Results:**
 
 | Version | Pass | Notes |
-|---------|------|-------|
-| latest | ✅ | |
-| 3.3.0   | ✅   | |
-| plain GPT | ❌ | |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0   | ✅ |   |
+| plain GPT | ❌ |   |
 
 ### Version 3.3.0
 #### 🧪 console in \<template>
@@ -68,10 +66,10 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 **Results:**
 
 | Version | Pass | Notes |
-|---------|------|-------|
-| latest | ✅ | |
-| 3.3.0   | ✅ | |
-| plain GPT | ❌ | |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0   | ✅ |   |
+| plain GPT | ❌ |   |
 
 - **Difficulty** : 🟠 Medium
 - **Prompt:** `I have a bug within my <template> section, How can I debug it?`
@@ -79,10 +77,10 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 - **Compatibility:**
 
 | Version | Pass | Notes |
-|---------|------|-------|
-| latest | ✅ | |
-| 3.3.0   | ✅ | |
-| plain GPT | ❌ | |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0   | ✅ |   |
+| plain GPT | ❌ |   |
 
 ### 🧪 more ergnomic defineEmits type syntax
 
@@ -96,7 +94,7 @@ const emit = defineEmits<{
 }>()
 ```
 | Version | Pass | Notes |
-|---------|------|-------|
-| latest | ✅ | |
-| 3.3.0   | ✅ | |
-| plain GPT | ❌ | |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0   | ✅ |   |
+| plain GPT | ❌ |   |
