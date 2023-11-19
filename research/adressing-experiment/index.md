@@ -1,16 +1,16 @@
 ---
-title: "GPTs Adressing Experiment"
-description: "Experiment to find out how to best way to adress an OpenAI GPT in its instructions."
+title: "GPTs Addressing Experiment"
+description: "Experiment to find out how to best way to address an OpenAI GPT in its instructions."
 layout: base
 ---
 <img src="/assets/research/addressing-experiment/testgpt-logo.png" width="192" alt="TestGPTs face after being asked what 'quaddelpok' means 720 times" style="float: left; margin-right: 20px; margin-top:20px;">
 
-# Adressing Experiment
+# Addressing Experiment
 
 The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog/introducing-gpts) comming into being. Upon inspection of what the community has created, it is evident that GPTs are still an emerging technology and no "best-practices" have developed yet. 
-One aspect that has seen diverse approaches is the way of adressing GPTs in their instructions. While the GPT builder adresses the them by their title in the automatically generated instructions, it is clear that neither is this know to be "the" best way of doing it, nor is it the only way that is used. Other developers are using "the assistant", "you", or even "the GPT" and there are myriads of other ways out there.
+One aspect that has seen diverse approaches is the way of addressing GPTs in their instructions. While the GPT builder addresses the them by their title in the automatically generated instructions, it is clear that neither is this know to be "the" best way of doing it, nor is it the only way that is used. Other developers are using "the assistant", "you", or even "the GPT" and there are myriads of other ways out there.
 
-The aim of this experiment is to figure out, how to best adress a GPT in it's instructions. 
+The aim of this experiment is to figure out, how to best address a GPT in it's instructions. 
 
 ## Navigation:
 
@@ -19,20 +19,20 @@ The aim of this experiment is to figure out, how to best adress a GPT in it's in
     - [Tested variables](#tested-variables)
     - [Experiment procedure](#experiment-procedure)
 - [Results](#results)
-    - [Adressing methods](#adressing-methods)
+    - [Addressing methods](#addressing-methods)
     - [Order](#order)
     - [Diversity](#diversity-within-tests)
 - [Conclusion](#conclusion)
 
 ## TL;DR
-- "You" is the strongest way of adressing a GPT, followed by the name of the the GPT. 
+- "You" is the strongest way of addressing a GPT, followed by the name of the the GPT. 
 - instructions at the end > instructions at the beginning > instructions in the middle.
 
 ## Experiment Design 
 
 ### Tested variables
 
-**Ways of adressing**:
+**Ways of addressing**:
 
 - "the assistant"
 - "the GPT"
@@ -40,7 +40,7 @@ The aim of this experiment is to figure out, how to best adress a GPT in it's in
 - "I"
 - "{GPT_title}"
 
-This selection was made after inspecting a selection of publicly available sources. This probably does not capture all the ways of adressing a GPT, but I am confident that the most common ways are ammong them.
+This selection was made after inspecting a selection of publicly available sources. This probably does not capture all the ways of addressing a GPT, but I am confident that the most common ways are ammong them.
 
 **Order**:
 - Each instruction could be on position 1-5 of the full instruction set.
@@ -66,26 +66,26 @@ For each run, the corresponding way of addressing to the returned color was coll
 
 ## Results
 
-### Adressing methods:
+### Addressing methods:
 
 The experiment has shown that there is a significant difference in the effectiveness of various addressing methods. 
-![Relative Wins by Adressing Method](/assets/research/addressing-experiment/combined-relative.png)
+![Relative Wins by Addressing Method](/assets/research/addressing-experiment/combined-relative.png)
 
-"You" has won in more than 50% of the test runs, followed by the title of the GPT (in this experiment "TestGPT") with ~30%. The other three ways of adressing all scored below 10%, with "The GPT" being the worst performer at only 2.50% wins.
+"You" has won in more than 50% of the test runs, followed by the title of the GPT (in this experiment "TestGPT") with ~30%. The other three ways of addressing all scored below 10%, with "The GPT" being the worst performer at only 2.50% wins.
 
 ### Order:
 The experiment made clear: Order matters. Instructions at the end end have a particularly strong influence. 
 ![Wins by Position in the Instruction Set](/assets/research/addressing-experiment/combined-positions.png)
 The instruction that was given the last, won in 50% of the test runs. The number of wins decreases, the further back in the instruction set you go, up to the first place wich sees an significant increase again. 
 
-![Adressing methods wins at Position](/assets/research/addressing-experiment/combined-position-wins.png)
-In fact, only the two strongest adressing methods had a chance to win at position 1 or 2. Two of the five adressing methods had almost all their wins on posiion 5.
+![Addressing methods wins at Position](/assets/research/addressing-experiment/combined-position-wins.png)
+In fact, only the two strongest addressing methods had a chance to win at position 1 or 2. Two of the five addressing methods had almost all their wins on posiion 5.
 
 ### Diversity within Tests
 
 The individual test had rather homogeneous results:
 ![Diversity within Tests](/assets/research/addressing-experiment/combined-diversity.png)
-In 75 of the 120 tests, only one adressing method has won and only 9 tests had 3 or more different adressing methods win. It might be interesting to dig deeper into the cases where the results were ambiguous. However, for now this is not part of the scope of this experiment.
+In 75 of the 120 tests, only one addressing method has won and only 9 tests had 3 or more different addressing methods win. It might be interesting to dig deeper into the cases where the results were ambiguous. However, for now this is not part of the scope of this experiment.
 
 ### Side findings
 
@@ -96,7 +96,7 @@ I initially started the experiment with only four variables, before it was point
 
 ## Conclusion
 
-The experiment has shown, that adressing a GPT with "you" or the title of the GPT is the strongest way and should be prefered. Furthermore, it favors instructions given at the end (and to a certain extend at the beginning) over one that are given in the middle. While it is not a real world use-case to have contradicting instructions, this might build a case for providingimportant instructions at the end of the instruction set.
+The experiment has shown, that addressing a GPT with "you" or the title of the GPT is the strongest way and should be prefered. Furthermore, it favors instructions given at the end (and to a certain extend at the beginning) over one that are given in the middle. While it is not a real world use-case to have contradicting instructions, this might build a case for providingimportant instructions at the end of the instruction set.
 
 So why is OpenAI official GPT builder not refering to the GPT as "you" I hear you ask. During research I stumbled across a plausible explanation (by @RonaldGRuckus)[https://community.openai.com/t/custom-gpt-instructions-using-2nd-vs-3rd-person/497663/7?u=luona.dev]: Since the generated instructions have to be part of GPT builders context, it would get confused if these would be written in 2nd person aka "you". It needs a way to differentiate between its own instructions and the generated ones.
 

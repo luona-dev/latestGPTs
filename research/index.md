@@ -9,7 +9,7 @@ The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog
 
 ## Navigation:
 - Research
-    - [👋Adressing Experiment](/research/adressing-experiment/)
+    - [👋Addressing Experiment](/research/adressing-experiment/)
 
 ## Resources
 Feel free to add your own resources to this list by [creating a pull request](https://github.com/luona-dev/latestGPTs#contribution-guidelines).
