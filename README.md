@@ -30,12 +30,12 @@ If one of our coding assistants has given you wrong advise or does not know abou
 
 #### How to Report an Issue
 1. Create a New Issue: Go to the 'Issues' tab in our GitHub repository and click on 'New Issue'.
-2. Choose the Appropriate Template: We have different templates for different types of issues (e.g., bug reports, feature requests). Please select the one that best fits your issue.
+2. Choose the Appropriate Template: We have different templates for different types of issues (e.g., knowledge discrepancies, test suggestions). Please select the one that best fits your issue.
 3. Fill Out the Template Completely: Provide as much information as possible. A well-documented issue is much easier for us to understand and address quickly.
 
 #### Key Information to Include:
 - **GPT Library and Version**: Always make clear which GPT and version you are talking about.
-- **Steps to reproduce** If a GPT gave you wrong advice / was missing knowledge, include the exact prompt that was not properly answered. Ideally along  with a link to the conversation. 
+- **Steps to reproduce** If a GPT gave you wrong advice / was missing knowledge, include the exact prompt that was not properly answered. Ideally along with a link to the conversation. 
 - **Expected Behavior** Describe what you have expected. Ideally point to the **exact documentation** where the feature is described and the exact **version** that the missing feature  was introduced in. This greatly help us improve the knowledge file quickly.
 - **Actual Behavior**: Explain what was wrong about the answer that the GPT provided.
 
