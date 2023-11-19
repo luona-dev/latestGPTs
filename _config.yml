@@ -12,8 +12,8 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-# remote-theme: jekyll/minima # or another theme
-theme: minima
+remote-theme: jekyll/minima # or another theme
+# theme: minima
 plugins:
   # - jekyll-remote-theme
   - jekyll-feed
@@ -31,14 +31,18 @@ exclude:
   - vendor/gems
   - vendor/ruby
 
+minima:
+  skin: "dark"
+  social_links:
+      - { platform: twitter, user_url: "https://twitter.com/LuonaDev" }
+      - { platform: github, user_url: "https://github.com/luona-dev" }
 
 
-# SEO settings
-# author: 
-#   name: luona.dev
-#   email: contact@luona.dev  
-author: luona.dev
-email: contact@luona.dev
+author: 
+  name: luona.dev
+  email: contact@luona.dev  
+# author: luona.dev
+# email: contact@luona.dev
 
 twitter_username: LuonaDev
 github_username:  luona-dev
