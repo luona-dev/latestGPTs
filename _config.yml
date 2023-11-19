@@ -12,10 +12,11 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-theme: minima # or another theme
+remote-theme: jekyll/minima # or another theme
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
 
 # Exclude from production build
 exclude:
@@ -38,3 +39,5 @@ email: contact@luona.dev
 
 twitter_username: LuonaDev
 github_username:  luona-dev
+
+google_analytics: G-NXEC9DNP3M
