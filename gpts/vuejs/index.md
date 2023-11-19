@@ -1,3 +1,8 @@
+---
+title: Vue.js GPTs from [latest] GPTs
+description: A custom GPT coding assistant, equiped with knowledge of the latest Vue.js features and smart presets.
+layout: base
+---
 # [latest]Vue.js GPTs 
 
 <img src="/assets/vuejs/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">

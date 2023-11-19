@@ -1,10 +1,15 @@
+---
+title: Research on OpenAI Custom GPTs
+description: Research on OpenAI Custom GPTs
+layout: base
+---
 # GPT Research
 
 The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog/introducing-gpts) comming into being. Upon inspection of what the community has created, it is evident that GPTs are still an emerging technology and no "best-practices" have developed yet. Research and Experiments can help to find out what works and what doesn't. This page documents research conducted by luona.dev as and collects valuable resources from the community.
 
 ## Navigation:
 - Research
-    - [Adressing Experiment](/adressing-experiment/README.md)
+    - [Adressing Experiment](/research/adressing-experiment/)
 - [Resources](#resources)
 
 

@@ -1,4 +1,9 @@
-![TestGPTs face after being asked what "quaddelpok" means 720 times](/assets/research/addressing-experiment/testgpt-logo.png)
+---
+title: "GPTs Adressing Experiment"
+description: "Experiment to find out how to best way to adress an OpenAI GPT in its instructions."
+layout: base
+---
+<img src="/assets/research/addressing-experiment/testgpt-logo.png" width="192" alt="TestGPTs face after being asked what 'quaddelpok' means 720 times" style="float: left; margin-right: 20px; margin-top:20px;">
 
 # Adressing Experiment
 
