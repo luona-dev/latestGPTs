@@ -28,5 +28,5 @@ paginate_path: "/page:num/"
 
 # SEO settings
 author: luona.dev
-twitter_username: @LuonaDev
+twitter_username: \@LuonaDev
 github_username:  luona-dev
