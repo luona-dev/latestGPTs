@@ -1,6 +1,5 @@
 ---
 title: "[latest]Vue3 GPT"
-layout: page
 ---
 
 <img src="/assets/vuejs/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">
@@ -10,8 +9,8 @@ Custom GPT coding assistants, equiped with knowledge of the latest Vue.js featur
 
 | GPT | Version | Last Update📅 | Notes🗒️ |
 |-|-|-|-|
-[[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.0 | 2023-11-17 | 😍
-[[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) |✖️| 2023-11-17 | for testing purposes only 
+| [[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.0 | 2023-11-17 | 😍 |
+| [[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) | ✖️ | 2023-11-17 | for testing purposes only |
 
 
 ## Presets/Conversation starters ⚙️
