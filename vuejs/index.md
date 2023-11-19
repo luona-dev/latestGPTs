@@ -1,4 +1,7 @@
-
+---
+title: [latest]Vue3 GPT
+layout: page
+---
 
 # [latest]Vue3 GPT
 <img src="/assets/vuejs/logo_vuegpt.png" width="96" alt="Icon of the Vue3 GPTs" style="float: left; margin-right: 10px;">
