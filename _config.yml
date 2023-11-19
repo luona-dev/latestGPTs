@@ -1,9 +1,14 @@
-title: \[latest]GPTs Knowledge Base
+title: "[latest]GPTs Knowledge Base"
 description: >-
   Documentation and knowledge base for the [latest]GPTs project, 
   featuring GPT models for various programming libraries.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gpts.luona.dev" # the base hostname & protocol for your site
+
+header_pages:
+  - research/README.md
+  - vuejs/README.md
+
 
 # Build settings
 markdown: kramdown
@@ -28,6 +33,8 @@ paginate: 5 # amount of posts to show
 paginate_path: "/page:num/"
 
 # SEO settings
-author: luona.dev
-twitter_username: \@LuonaDev
+author:
+  name: luona.dev
+  email: contact@luona.dev  
+twitter_username: LuonaDev
 github_username:  luona-dev
