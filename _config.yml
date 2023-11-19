@@ -10,6 +10,7 @@ markdown: kramdown
 theme: minima # or another theme
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Exclude from production build
 exclude:
