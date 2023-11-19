@@ -21,7 +21,7 @@ The aim of this experiment is to figure out, how to best adress a GPT in it's in
 
 ## TL;DR
 - "You" is the strongest way of adressing a GPT, followed by the name of the the GPT. 
-- Instructions at the end outperform instructions in the middle by a huge margin.
+- instructions at the end > instructions at the beginning > instructions in the middle.
 
 ## Experiment Design 
 

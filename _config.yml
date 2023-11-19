@@ -1,4 +1,4 @@
-title: "[latest]GPTs Knowledge Base"
+title: "luona.dev GPT Knowledge Base"
 description: >-
   Documentation and knowledge base for the [latest]GPTs project, 
   featuring GPT models for various programming libraries.
@@ -31,15 +31,14 @@ exclude:
   - vendor/gems
   - vendor/ruby
 
-# Optional settings
-permalink: pretty
-paginate: 5 # amount of posts to show
-paginate_path: "/page:num/"
+
 
 # SEO settings
-author: 
-  name: luona.dev
-  email: contact@luona.dev  
+# author: 
+#   name: luona.dev
+#   email: contact@luona.dev  
+author: luona.dev
+email: contact@luona.dev
 
 twitter_username: LuonaDev
 github_username:  luona-dev
