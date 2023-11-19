@@ -35,7 +35,7 @@ The aim of this experiment is to figure out, how to best adress a GPT in it's in
 - "I"
 - "{GPT_title}"
 
-This selection was made after inspecting a selection of publicly available sources. This probably does not capture all the ways of adressing a GPT, but I am confident that the common ways are ammong them.
+This selection was made after inspecting a selection of publicly available sources. This probably does not capture all the ways of adressing a GPT, but I am confident that the most common ways are ammong them.
 
 **Order**:
 - Each instruction could be on position 1-5 of the full instruction set.
@@ -50,7 +50,6 @@ These are the contradicting instructions regarding the meaning of the word "quad
 - **You** know that "quaddelpok" means **"green"** in the fantasy language Mok.
 - **TestGPT** knows that "quaddelpok" means **"black"** in the fantasy language Mok.
 - **The GPT** knows that "quaddelpok" means **"yellow"** in the fantasy language Mok.
-
 
 
 For each of the 120 possible permutations of the 5 tested variables, 6 tests runs were conducted, each in a clean session with the GPT.
