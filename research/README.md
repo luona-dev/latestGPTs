@@ -4,7 +4,7 @@ The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog
 
 ## Navigation:
 - Research
-    - [Adressing Experiment](/research/adressing-experiment/README.md)
+    - [Adressing Experiment](/adressing-experiment/README.md)
 - [Resources](#resources)
 
 

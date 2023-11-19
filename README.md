@@ -1,4 +1,7 @@
-# [latest] GPTs
+---
+layout: home    
+title: [latest] GPTs
+---
 
 **[latest] GPTs** is a family of [OpenAI GPTs](https://openai.com/blog/introducing-gpts) that combine handcraftet ⚒️ instructions, helpful presets ⚙️ and condensed knowledge 🧠 into   a cutting-edge suite of tools designed to enhance coding efficiency and accuracy.
 
@@ -6,6 +9,10 @@
 - [[latest]Vue3 GPT](/vuejs/README.md)
 - [[latest]FastAPI GPT](/fastapi/README.md)
 - What's next? You decide.. 🗳️
+
+## Our research:
+- [Research](/research/README.md)
+    - [Adressing Experiment](/research/adressing-experiment/README.md)
 
 ## Introduction
 

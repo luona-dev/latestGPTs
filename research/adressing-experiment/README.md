@@ -100,6 +100,6 @@ The desired outcome would have been that the GPT makes transparent that it has c
 
 ## Resources
 
-- If you want to perform an analysis yourself, you can find the raw data [here](/assets/research/addressing-experiment/combined-results.vsc). The data is stored in a CSV format. The information about the instruction order is encoded in the test ID. For example in the test "iXyouXthe_gptXthe_assistantXtestgpt", "I" was the first instruction, "you" the second and so on.
+- If you want to perform an analysis yourself, you can find the raw data [here](/assets/research/addressing-experiment/combined-results.csv). The data is stored in a CSV format. The information about the instruction order is encoded in the test ID. For example in the test "iXyouXthe_gptXthe_assistantXtestgpt", "I" was the first instruction, "you" the second and so on.
 
 - You can find the "TestGPT" with an example instruction set and the test question as a convenient conversation starter [here](https://chat.openai.com/g/g-ikpbT40PS-testgpt)
