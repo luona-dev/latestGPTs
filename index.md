@@ -7,7 +7,7 @@ At [luona.dev](https://luona.dev), we create and maintain a set of [OpenAI Custo
 GPTs are still a new and emerging technology, therefore we are conducting experiments enable us and the community to get the most out of them. You can find the results of these experiments in our [research section](/research/).
 
 ## Our [latest] GPTs:
-
+You can read more about our GPTs [here](/gpts/).
 - <img src="/assets/vuejs/vuejs-logo.svg" height="16" /> [Vue.js GPTs](/gpts/vuejs/)
 - <img src="/assets/fastapi/fastapi-logo.svg" height="20" style="margin-right:4px;"/>[FastAPI GPTs](/gpts/fastapi/)
 - What's next? You decide.. 🗳️
