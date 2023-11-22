@@ -5,7 +5,7 @@ layout: base
 ---
 # [latest]FastAPI GPT
 
-<img src="/assets/vuejs/logo_fastapigpt.png" width="96" alt="Icon of the FastAPI GPTs" style="float: left; margin-right: 10px;">
+<img src="/assets/fastapi/logo_fastapigpt.png" width="96" alt="Icon of the FastAPI GPTs" style="float: left; margin-right: 10px;">
 Custom GPT coding assistants, equiped with knowledge of the latest FastAPI features and smart presets. 
 
 ## Available Versions
