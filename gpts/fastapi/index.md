@@ -15,6 +15,11 @@ Custom GPT coding assistants, equiped with knowledge of the latest FastAPI featu
 | [[latest]FastAPI GPT](https://chat.openai.com/g/g-BhYCAfVXk-latest-fastapi-gpt) | 0.104.0 | 2023-11-22 | 😍 |
 | [[l]FastAPI GPT- plain](https://chat.openai.com/g/g-UXYVWTbat-latest-fastapi-gpt-plain) | ✖️ | 2023-11-22 | for testing purposes only |
 
+## Presets
+
+The coding assistant is told to be a concise and meticulous Python developer that adheres to latest standards and best practices.
+It should make excessive use of type hints and annotations. It is told to use Pydantic v2 features and sqlalchemy 2.0 with the new Typing API.
+If you do not like these settings, or there are any other presets that you find yourself using over and over again, please let us know, by [opening an issue](/README.md#contribution-guidelines).
 
 ## Tests & Performance 🌡️
 
@@ -47,7 +52,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 
 | Version | Pass | Notes |
 |---|---|---|
-| latest | ❌ | Often suggest to use a return type, but it does not explain why.  |
+| latest | ❌ | Often suggests to use a return type, but it semms random and unfounded.  |
 | plain GPT | ❌ |   |
 
 ---
