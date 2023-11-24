@@ -12,7 +12,7 @@ Custom GPT coding assistants, equiped with knowledge of the latest Vue.js featur
 
 | GPT | Version | Last Update📅 | Notes🗒️ |
 |---|---|---|---|
-| [[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.0 | 2023-11-17 | 😍 |
+| [[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.8 | 2023-11-23 | 😍 |
 | [[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) | ✖️ | 2023-11-17 | for testing purposes only |
 
 
@@ -45,10 +45,9 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.0   | ✅ |   |
+| 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
 
----
 - **Prompt:** `How can I style my components dynamically?`
 - **Difficulty:** 🟠 Medium
 - **Expected Outcome:** `Mention the option to use v-bind within the <style> tag.`
@@ -58,10 +57,26 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.0   | ✅ |   |
+| 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
 
-### Version 3.3.0
+---
+
+#### 🧪 onTrack onTrigger debug options for computed
+
+- **Prompt:** `How can I debug my computed properties?`
+- **Difficulty:** 🟢 Easy
+- **Expected Outcome:** `Suggest to use the onTrack and onTrigger options for computed properties.`
+
+**Results:**
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.8   | ✅ |   |
+| plain GPT | ❌ |   |
+
+### Version 3.3.8
 #### 🧪 console in \<template>
 
 - **Difficulty** :  🟢 Easy
@@ -73,7 +88,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.0   | ✅ |   |
+| 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
 
 - **Difficulty** : 🟠 Medium
@@ -84,7 +99,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.0   | ✅ |   |
+| 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
 
 ### 🧪 more ergnomic defineEmits type syntax
@@ -102,5 +117,5 @@ const emit = defineEmits<{
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.0   | ✅ |   |
+| 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
