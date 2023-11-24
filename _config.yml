@@ -17,6 +17,7 @@ remote_theme: jekyll/minima # or another theme
 # theme: minima
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
   # - jekyll-titles-from-headings
 
 
