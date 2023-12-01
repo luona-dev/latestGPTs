@@ -1,16 +1,23 @@
 ---
-title: "GPTs Addressing Experiment"
-description: "Experiment to find out how to best way to address an OpenAI GPT in its instructions."
-layout: base
+title: "Addressing Experiment"
+description: "Whats the best way to address an OpenAI custom GPT in its instructions? An comprehensive experiment."
+layout: post
+date: 2023-11-20
 ---
-<img src="/assets/research/addressing-experiment/testgpt-logo.png" width="192" alt="TestGPTs face after being asked what 'quaddelpok' means 720 times" style="float: left; margin-right: 20px; margin-top:20px;">
+**How to address OpenAIs custom GPTs and assistants in their instructions👋**
 
-# Addressing Experiment
+<div style="float: left; margin-right: 20px; margin-top:20px; max-width:192px">
+<img src="/assets/research/addressing-experiment/testgpt-logo.png" width="192" alt="TestGPTs face after being asked what 'quaddelpok' means 720 times" style="float: left; margin-right: 20px; margin-top:0px;">
+<sub style="float:left;"><b>Illustration 0:</b> TestGPTs face after being asked what 'quaddelpok' means 720 times</sub>
+</div>
+
 
 The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog/introducing-gpts) comming into being. Upon inspection of what the community has created, it is evident that GPTs are still an emerging technology and no "best-practices" have developed yet. 
 One aspect that has seen diverse approaches is the way of addressing GPTs in their instructions. While the GPT builder addresses the them by their title in the automatically generated instructions, it is clear that neither is this know to be "the" best way of doing it, nor is it the only way that is used. Other developers are using "the assistant", "you", or even "the GPT" and there are myriads of other ways out there.
 
 The aim of this experiment is to figure out, how to best address a GPT in it's instructions. 
+
+---
 
 ## Navigation:
 
@@ -22,11 +29,16 @@ The aim of this experiment is to figure out, how to best address a GPT in it's i
     - [Addressing methods](#addressing-methods)
     - [Order](#order)
     - [Diversity](#diversity-within-tests)
+    - [Serendipitous Findings](#serendipitous-findings)
 - [Conclusion](#conclusion)
+
+---
 
 ## TL;DR
 - "You" is the strongest way of addressing a GPT, followed by the name of the the GPT. 
 - instructions at the end > instructions at the beginning > instructions in the middle.
+
+---
 
 ## Experiment Design 
 
@@ -63,6 +75,7 @@ In each test run, the GPT simply got asked:
 
 For each run, the corresponding way of addressing to the returned color was collected.
 
+---
 
 ## Results
 
@@ -87,12 +100,13 @@ The individual test had rather homogeneous results:
 ![Diversity within Tests](/assets/research/addressing-experiment/combined-diversity.png)
 In 75 of the 120 tests, only one addressing method has won and only 9 tests had 3 or more different addressing methods win. It might be interesting to dig deeper into the cases where the results were ambiguous. However, for now this is not part of the scope of this experiment.
 
-### Side findings
+### ➡️ Serendipitous Findings
 
 I initially started the experiment with only four variables, before it was pointed out to me, that some people are writing the instructions in first person. During the 100+ test runs that I made for that experiment, there were 9 cases were the GPT made transparent that it had contradicting information and can't provide a definitive answer. However, this occured not once during the experiment with 5 variables. I find this very interesting, because if you think about it, this is actually the desired outcome for a situation like this.
 
 ![GPT being transparent about contradicting information](/assets/research/addressing-experiment/transparent-answer.png)
 
+---
 
 ## Conclusion
 
@@ -101,6 +115,15 @@ The experiment has shown, that addressing a GPT with "you" or the title of the G
 So why is OpenAI official GPT builder not refering to the GPT as "you" I hear you ask. During research I stumbled across a plausible explanation (by @RonaldGRuckus)[https://community.openai.com/t/custom-gpt-instructions-using-2nd-vs-3rd-person/497663/7?u=luona.dev]: Since the generated instructions have to be part of GPT builders context, it would get confused if these would be written in 2nd person aka "you". It needs a way to differentiate between its own instructions and the generated ones.
 
 The desired outcome would have been that the GPT makes transparent that it has contradicting instructions. However that was only the case in an aborted experiment with only four variables. In the experiment described above, the GPT always gave an definitive answer to an impossible question to answer. This might be a phenomenom to further investigate.
+
+---
+
+## Epilogue
+
+I hope some of you found this experiment to be interesting, ideally helpful and a joyfull read. I would like to do more stuff like this in the future. If you can and want to support me, you can buy me some time for this on [buymeacoffee](https://www.buymeacoffee.com/kon.foo)
+
+If you have any feedback, please contact me on [Twitter](https://twitter.com/LuonaDev) or [Discord](https://discordapp.com/users/luona.dev).
+
 
 ## Resources
 
