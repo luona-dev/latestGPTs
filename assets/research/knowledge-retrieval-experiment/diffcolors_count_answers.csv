@@ -1,0 +1,41 @@
+num_entries,test_id,runtime,correct_answer,given_answer,notes,retrieved_tokens,retrieved_quotes,unique_quotes_tokens,useless_tokens
+100,100_diffcolors_attempt-0,8,25,12,,0,0,0,0
+1000,1000_diffcolors_attempt-0,35,25,0,no answer at all,0,0,0,0
+1000,1000_diffcolors_attempt-1,62,25,22,"transparent: ""may not represent an exhaustive list""",13525,17,3343,10182
+1000,1000_diffcolors_attempt-2,5,25,0,"transparent searched for ""color"" and ""colour""",0,0,0,0
+1000,1000_diffcolors_attempt-3,10,25,23,"no annotations, still answer. transparent: ""may not represent an exhaustive list""",0,0,0,0
+1000,1000_diffcolors_attempt-4,35,25,16,,4121,11,2119,2002
+1000,1000_diffcolors_attempt-5,35,25,9,,569,9,347,222
+1000,1000_diffcolors_attempt-6,34,25,0,no answer at all,0,0,0,0
+1000,1000_diffcolors_attempt-7,8,25,0,"transparent searched for ""color"" and ""colour""",0,0,0,0
+1000,1000_diffcolors_attempt-8,27,25,21,"transparent ""there may be more""",2014,1,2014,0
+1000,1000_diffcolors_attempt-9,43,25,16,"no annotations, still answer transparent:""at least 16 colors...""",0,0,0,0
+100,100_diffcolors_attempt-2,9,25,0,searched for color,0,0,0,0
+100,100_diffcolors_attempt-3,50,25,24,"really weird one starts with ""after additional searching...""",937,24,937,0
+100,100_diffcolors_attempt-4,25,25,18,"Wrote ""Note that this list is based on a search of the first half of the diary, and the complete diary may mention more colors""",999,1,999,0
+100,100_diffcolors_attempt-5,18,25,19,,1277,1,1277,0
+100,100_diffcolors_attempt-6,6,25,0,,0,0,0,0
+100,100_diffcolors_attempt-7,45,25,24,24,903,24,903,0
+100,100_diffcolors_attempt-8,41,25,22,"Said "" Additionally, turquoise and amber were mentioned in the text, however, due to an error, these entries did not get directly quoted,""",6659,18,3735,2924
+100,100_diffcolors_attempt-9,9,25,11,,82,1,82,0
+100,100_diffcolors_attempt-1,20,25,11,,3592,21,804,2788
+10000,10000_diffcolors_attempt-0,7,25,3,,0,0,0,0
+10000,10000_diffcolors_attempt-1,5,25,0,,0,0,0,0
+10000,10000_diffcolors_attempt-2,34,25,14,,0,0,0,0
+10000,10000_diffcolors_attempt-3,29,25,0,no answer at all,0,0,0,0
+10000,10000_diffcolors_attempt-4,24,25,11,,592,5,592,0
+10000,10000_diffcolors_attempt-5,11,25,23,,917,1,917,0
+10000,10000_diffcolors_attempt-6,25,25,25,,4045,2,4045,0
+10000,10000_diffcolors_attempt-7,20,25,16,,718,16,718,0
+10000,10000_diffcolors_attempt-8,18,25,12,,776,12,542,234
+10000,10000_diffcolors_attempt-9,44,25,22,,32685,23,2759,29926
+50000,50000_diffcolors_attempt-0,75,25,23,,16281,14,3629,12652
+50000,50000_diffcolors_attempt-1,31,25,23,no annotations,0,0,0,0
+50000,50000_diffcolors_attempt-2,5,25,0,"Error ""there has been an error accessing the contents of the diary""",0,0,0,0
+50000,50000_diffcolors_attempt-3,118,25,23,"no annotations, good answer",0,0,0,0
+50000,50000_diffcolors_attempt-4,9,25,3,"tansparent: "" but due to the limitations of the searching tool, I cannot provide an exact total count of every distinct color mentioned""",0,0,0,0
+50000,50000_diffcolors_attempt-5,55,25,23,,856,23,856,0
+50000,50000_diffcolors_attempt-6,46,25,15,,3213,8,3213,0
+50000,50000_diffcolors_attempt-7,23,25,22,,0,0,0,0
+50000,50000_diffcolors_attempt-8,26,25,14,,1674,14,1067,607
+50000,50000_diffcolors_attempt-9,36,25,15,,16181,15,2174,14007

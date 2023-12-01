@@ -1,0 +1,121 @@
+num_entries,test_id,search_area,runtime,solved,notes,retrieved_tokens,retrieved_quotes
+100,100_dates_0_attempt-5,0,5,True,,584,1
+100,100_dates_0_attempt-2,0,6,True,,349,1
+100,100_dates_0_attempt-6,0,5,True,,39,1
+100,100_dates_0_attempt-3,0,5,True,,36,1
+100,100_dates_0_attempt-6,0,5,True,,39,1
+100,100_dates_0_attempt-8,0,7,True,,78,1
+100,100_dates_0_attempt-0,0,6,True,,37,1
+100,100_dates_0_attempt-9,0,4,True,,37,1
+100,100_dates_0_attempt-4,0,5,True,,36,1
+100,100_dates_0_attempt-7,0,5,True,,33,1
+100,100_dates_1_attempt-51,1,5,True,,36,1
+100,100_dates_1_attempt-51,1,5,True,,36,1
+100,100_dates_1_attempt-49,1,5,True,,34,1
+100,100_dates_1_attempt-47,1,5,True,,369,1
+100,100_dates_1_attempt-48,1,5,True,,37,1
+100,100_dates_1_attempt-47,1,6,True,,369,1
+100,100_dates_1_attempt-45,1,7,True,,36,1
+100,100_dates_1_attempt-52,1,4,True,,37,1
+100,100_dates_1_attempt-49,1,5,True,,34,1
+100,100_dates_1_attempt-45,1,8,True,,36,1
+100,100_dates_2_attempt-99,2,5,True,,35,1
+100,100_dates_2_attempt-97,2,4,True,,36,1
+100,100_dates_2_attempt-92,2,5,True,,37,1
+100,100_dates_2_attempt-92,2,6,True,,37,1
+100,100_dates_2_attempt-91,2,6,True,,67,1
+100,100_dates_2_attempt-95,2,5,True,,44,1
+100,100_dates_2_attempt-97,2,5,True,,36,1
+100,100_dates_2_attempt-91,2,5,True,,67,1
+100,100_dates_2_attempt-91,2,4,True,,67,1
+100,100_dates_2_attempt-95,2,6,True,,44,1
+1000,1000_dates_0_attempt-0,0,6,True,,34,1
+1000,1000_dates_0_attempt-1,0,4,True,,35,1
+1000,1000_dates_0_attempt-2,0,8,True,,77,1
+1000,1000_dates_0_attempt-3,0,5,True,,35,1
+1000,1000_dates_0_attempt-4,0,8,True,,36,1
+1000,1000_dates_0_attempt-5,0,6,True,,60,1
+1000,1000_dates_0_attempt-6,0,6,True,,37,1
+1000,1000_dates_0_attempt-7,0,4,True,,39,1
+1000,1000_dates_0_attempt-8,0,7,False,one property off,36,1
+1000,1000_dates_0_attempt-9,0,5,True,,38,1
+1000,1000_dates_1_attempt-0,1,6,True,,38,1
+1000,1000_dates_1_attempt-1,1,5,True,,36,1
+1000,1000_dates_1_attempt-2,1,6,True,,36,1
+1000,1000_dates_1_attempt-3,1,5,True,,46,1
+1000,1000_dates_1_attempt-4,1,5,True,,36,1
+1000,1000_dates_1_attempt-5,1,5,True,,39,1
+1000,1000_dates_1_attempt-6,1,6,True,,482,1
+1000,1000_dates_1_attempt-7,1,6,True,,38,1
+1000,1000_dates_1_attempt-8,1,4,True,,34,1
+1000,1000_dates_1_attempt-9,1,4,True,,36,1
+1000,1000_dates_2_attempt-0,2,5,True,,36,1
+1000,1000_dates_2_attempt-1,2,7,True,,36,1
+1000,1000_dates_2_attempt-2,2,5,True,,37,1
+1000,1000_dates_2_attempt-3,2,5,True,,37,1
+1000,1000_dates_2_attempt-4,2,5,True,,80,1
+1000,1000_dates_2_attempt-5,2,6,True,,79,1
+1000,1000_dates_2_attempt-6,2,5,True,,36,1
+1000,1000_dates_2_attempt-7,2,6,True,,38,1
+1000,1000_dates_2_attempt-8,2,6,True,,35,1
+1000,1000_dates_2_attempt-9,2,6,True,,81,1
+10000,10000_dates_0_attempt-0,0,7,True,,38,1
+10000,10000_dates_0_attempt-1,0,4,True,,38,1
+10000,10000_dates_0_attempt-2,0,5,True,,39,1
+10000,10000_dates_0_attempt-3,0,5,True,,36,1
+10000,10000_dates_0_attempt-4,0,8,True,,22,1
+10000,10000_dates_0_attempt-5,0,5,True,,36,1
+10000,10000_dates_0_attempt-6,0,42,True,,36,1
+10000,10000_dates_0_attempt-7,0,8,True,,58,1
+10000,10000_dates_0_attempt-8,0,5,True,,36,1
+10000,10000_dates_0_attempt-9,0,5,True,,38,1
+10000,10000_dates_1_attempt-0,1,9,False,2 props off,37,1
+10000,10000_dates_1_attempt-1,1,6,True,,37,1
+10000,10000_dates_1_attempt-2,1,4,True,,37,1
+10000,10000_dates_1_attempt-3,1,5,True,,36,1
+10000,10000_dates_1_attempt-4,1,12,True,,37,1
+10000,10000_dates_1_attempt-5,1,6,True,,38,1
+10000,10000_dates_1_attempt-6,1,5,True,,36,1
+10000,10000_dates_1_attempt-7,1,5,True,,35,1
+10000,10000_dates_1_attempt-8,1,5,True,,36,1
+10000,10000_dates_1_attempt-9,1,5,True,,37,1
+10000,10000_dates_2_attempt-0,2,6,False,"2 props off, but mentioned it",35,1
+10000,10000_dates_2_attempt-1,2,10,False,2 props off,38,1
+10000,10000_dates_2_attempt-2,2,6,True,,37,1
+10000,10000_dates_2_attempt-3,2,12,False,2 props off,70,2
+10000,10000_dates_2_attempt-4,2,6,True,,45,1
+10000,10000_dates_2_attempt-5,2,6,True,,38,1
+10000,10000_dates_2_attempt-6,2,5,True,,41,1
+10000,10000_dates_2_attempt-7,2,6,True,,36,1
+10000,10000_dates_2_attempt-8,2,5,True,,35,1
+10000,10000_dates_2_attempt-9,2,6,True,,37,1
+50000,50000_dates_0_attempt-0,0,6,False,1 prop off,39,1
+50000,50000_dates_0_attempt-1,0,5,True,,36,1
+50000,50000_dates_0_attempt-2,0,5,True,,37,1
+50000,50000_dates_0_attempt-3,0,5,False,2 props off,36,1
+50000,50000_dates_0_attempt-4,0,8,True,,36,1
+50000,50000_dates_0_attempt-5,0,6,True,,37,1
+50000,50000_dates_0_attempt-6,0,5,True,,38,1
+50000,50000_dates_0_attempt-7,0,7,True,,41,1
+50000,50000_dates_0_attempt-8,0,5,False,1 prop off,40,1
+50000,50000_dates_0_attempt-9,0,8,True,,77,1
+50000,50000_dates_1_attempt-0,1,16,True,,38,1
+50000,50000_dates_1_attempt-1,1,5,True,,35,1
+50000,50000_dates_1_attempt-2,1,21,True,,1021,1
+50000,50000_dates_1_attempt-3,1,5,True,,36,1
+50000,50000_dates_1_attempt-4,1,5,True,,39,1
+50000,50000_dates_1_attempt-5,1,14,True,,37,1
+50000,50000_dates_1_attempt-6,1,7,True,,41,1
+50000,50000_dates_1_attempt-7,1,19,False,1 prop off,41,1
+50000,50000_dates_1_attempt-8,1,4,True,,35,1
+50000,50000_dates_1_attempt-9,1,17,False,1 prop off,38,1
+50000,50000_dates_2_attempt-0,2,5,False,1 prop off,40,1
+50000,50000_dates_2_attempt-1,2,6,True,,35,1
+50000,50000_dates_2_attempt-2,2,20,False,1 prop off,80,2
+50000,50000_dates_2_attempt-3,2,7,True,,159,1
+50000,50000_dates_2_attempt-4,2,5,True,,35,1
+50000,50000_dates_2_attempt-5,2,17,False,2 props off,39,1
+50000,50000_dates_2_attempt-6,2,8,False,"weird, long single quote with citations in it",532,1
+50000,50000_dates_2_attempt-7,2,18,True,,36,1
+50000,50000_dates_2_attempt-8,2,19,True,,35,1
+50000,50000_dates_2_attempt-9,2,5,True,,38,1
