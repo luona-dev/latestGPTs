@@ -476,7 +476,7 @@ But I was already too far in and honestly pretty hooked. I had a lot of fun and 
 
 If you have any feedback, please contact me on [Twitter](https://twitter.com/LuonaDev) or [Discord](https://discordapp.com/users/luona.dev).
 
-If you want to stay up to date with our research, guides and [latest] GPTs, I would be happy to welcome you to our **[newsletter]**(https://newsletter.luona.dev/subscription/form). No hype, no spam, just a ping every now and then when we have something to share.
+If you want to stay up to date with our research, guides and [latest] GPTs, I would be happy to welcome you to our [**newsletter**](https://newsletter.luona.dev/subscription/form). No hype, no spam, just a ping every now and then when we have something to share.
 
 ---
 <br>
