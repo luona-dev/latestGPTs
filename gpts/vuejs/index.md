@@ -2,6 +2,7 @@
 title: Vue.js GPTs from [latest] GPTs
 description: A custom GPT coding assistant, equiped with knowledge of the latest Vue.js features and smart presets.
 layout: base
+date: 2023-11-15
 ---
 # [latest]Vue.js GPTs 
 

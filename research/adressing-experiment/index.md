@@ -124,6 +124,7 @@ I hope some of you found this experiment to be interesting, ideally helpful and 
 
 If you have any feedback, please contact me on [Twitter](https://twitter.com/LuonaDev) or [Discord](https://discordapp.com/users/luona.dev).
 
+If you want to stay up to date with our research, guides and [latest] GPTs, I would be happy to welcome you to our **[newsletter]**(https://newsletter.luona.dev/subscription/form). No hype, no spam, just a ping every now and then when we have something to share.
 
 ## Resources
 
