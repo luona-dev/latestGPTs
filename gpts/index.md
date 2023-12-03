@@ -14,7 +14,7 @@ Due to the time gap between their training and deployment, these AI models often
 
 - <img src="/assets/vuejs/vuejs-logo.svg" height="16" /> [Vue.js GPTs](/gpts/vuejs/)
 - <img src="/assets/fastapi/fastapi-logo.svg" height="20" style="margin-right:4px;"/>[FastAPI GPTs](/gpts/fastapi/)
-
+- 🗳️ What's next? [You decide..](https://app.formbricks.com/s/clpiu0pdy2vylqg72ki5ikev0)
 
 ### Knowledge retrieval
 

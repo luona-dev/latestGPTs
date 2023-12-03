@@ -10,12 +10,12 @@ GPTs are still a new and emerging technology, therefore we are conducting experi
 You can read more about our GPTs [here](/gpts/).
 - <img src="/assets/vuejs/vuejs-logo.svg" height="16" /> [Vue.js GPTs](/gpts/vuejs/)
 - <img src="/assets/fastapi/fastapi-logo.svg" height="20" style="margin-right:4px;"/>[FastAPI GPTs](/gpts/fastapi/)
-- 🗳️ What's next? [You decide..](/latest-gpts-poll/) 
+- 🗳️ What's next? [You decide..](https://app.formbricks.com/s/clpiu0pdy2vylqg72ki5ikev0) 
 
-## [luona.dev] GPT guides:
+## Guides and How-to's for custom GPTs and the Assistants API:
 - [📝 How to add Polls, Feedback Forms and more to your custom GPTs](/guides/formbricks-in-gpts)
 
-## [luona.dev] GPT research:
+## Research on GPTs and the Assistants API:
 - [🧑‍🔬 Research](/research/)
     - [👋 Instructions - How to address GPTs](/research/adressing-experiment/)
     - [🗂️ Knowledge Retrieval - How to use knowledge files](/research/knowledge-retrieval-experiment/)
