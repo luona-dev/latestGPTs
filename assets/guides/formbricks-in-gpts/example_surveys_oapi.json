@@ -1,0 +1,87 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Formbricks API",
+        "version": "v1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://app.formbricks.com/api/v1"
+        }
+    ],
+    "paths": {
+        "/client/clpmo...zmqf/responses": {
+            "post": {
+                "operationId": "clpmo...zmqf",
+                "x-openai-isConsequential": false,
+                "requestBody": {
+                    "type": "object",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/FormbricksResponse"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "FormbricksResponse": {
+                "type": "object",
+                "properties": {
+                    "surveyId": {
+                        "type": "string"
+                    },
+                    "finished": {
+                        "type": "boolean"
+                    },
+                    "ttc": {
+                        "type": "object",
+                        "properties": {
+                            "k4fh8...nidq": {
+                                "type": "number"
+                            },
+                            "o0ynm...kob9": {
+                                "type": "number"
+                            },
+                            "iu1k3...fzrm": {
+                                "type": "number"
+                            }
+                        }
+                    },
+                    "data": {
+                        "type": "object",
+                        "properties": {
+                            "k4fh8...nidq": {
+                                "type": "string"
+                            },
+                            "o0ynm...kob9": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "iu1k3...fzrm": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "surveyId",
+                    "ttc",
+                    "finished",
+                    "data"
+                ]
+            }
+        }
+    }
+}

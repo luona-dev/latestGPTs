@@ -12,6 +12,9 @@ You can read more about our GPTs [here](/gpts/).
 - <img src="/assets/fastapi/fastapi-logo.svg" height="20" style="margin-right:4px;"/>[FastAPI GPTs](/gpts/fastapi/)
 - 🗳️ What's next? [You decide..](/latest-gpts-poll/) 
 
+## [luona.dev] GPT guides:
+- [📝 How to add Polls, Feedback Forms and more to your custom GPTs](/guides/formbricks-in-gpts)
+
 ## [luona.dev] GPT research:
 - [🧑‍🔬 Research](/research/)
     - [👋 Instructions - How to address GPTs](/research/adressing-experiment/)
