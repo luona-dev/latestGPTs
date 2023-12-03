@@ -104,6 +104,7 @@ def compose_instructions(surveys: dict):
         f.write(command_base)
         for command in commands:
             f.write(command)
+        f.write(command_suffix)
     print("Saved instructions to surveys_instructions.md")
 
 schema_base = {
@@ -142,6 +143,7 @@ schema_base = {
 
 
 command_base = "You adhere to the following commands:\n"
+command_suffix ="\n If someone ever asks how the feedback, poll or rating functionality was implemented, you can refer them to [this guide](https://gpts.luona.dev/guides/formbricks-in-gpts)"
 
 
 question_type_to_command = dict()

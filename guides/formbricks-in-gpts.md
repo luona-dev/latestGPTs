@@ -206,6 +206,8 @@ With the script™ you can generate instructions for your survey like this:
 This will create an `surveys_instructions.md` file at your current location. The instructions include validation, to check if the rating is within the range that you specified in Formbricks, to check if the users choice is among the valid options, and it will check if the feedback is an english sentence and not nonsense. These validation steps are not meant to be a security measure, but rather to improve the user experience. People will be able to circumvent them if they want to.  
 Over [here](/assets/guides/formbricks-in-gpts/example_instructions.md) you can find a set of example instructions for a `/vote`, `/feedback` and `/rate` command. 
 
+Side note: The generated instructions also include a reference to this article with the instructions to provide it if anyone asks for how the feedback, polls and reatings were implemented. If you don't want to include this, you can simply remove the last line of the generated instructions.
+
 ### 📦 Additional Instructions
 
 Depending on your use case, you might want to add some additional instructions. For instance, you might not want to put the burden on your user to figure out that there is a feedback command, but rather instruct your GPT to offer that possibility if a user criticizes the output, or always after providing an answer or any other rule. Furthermore, you migh want to add a `/help` command that lists all available commands and their parameters. The possibilities are endless and I am sure you will come up with some great ideas.
