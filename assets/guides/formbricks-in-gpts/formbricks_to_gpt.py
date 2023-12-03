@@ -188,6 +188,15 @@ question_type_to_command["rating"] = """
 }}
 """
 
+def print_help() -> None:
+    """Prints the help message"""
+    print("Usage: python formbricks_to_gpt.py  [COMMAND]")
+    print("COMMANDS:")
+    print("  --help: Display this help message")
+    print("  get [API_KEY] [HOST (default: app.formbricks.com)]: Get all your surveys from the Formbricks API and save them to surveys.json")
+    print ("   oapi [PATH (default surveys.json)] [HOST (default: app.formbricks.com)]: Read surveys.json and OpenAI Actions compatibly OpenAPI 3.0 JSON file")
+    print("   instructions [PATH (default surveys.json)]: Read surveys.json and create example instructions for your GPT so it can handle the Formbricks endpoints")
+
 
 
 if __name__ == "__main__":
@@ -195,12 +204,7 @@ if __name__ == "__main__":
 
     command = sys.argv[1]   
     if command == "--help":
-        print("Usage: python formbricks_to_gpt.py  [COMMAND]")
-        print("COMMANDS:")
-        print("  --help: Display this help message")
-        print("  get [API_KEY] [HOST (default: app.formbricks.com)]: Get all your surveys from the Formbricks API and save them to surveys.json")
-        print ("   oapi [PATH (default surveys.json)] [HOST (default: app.formbricks.com)]: Read surveys.json and OpenAI Actions compatibly OpenAPI 3.0 JSON file")
-        print("   instructions [PATH (default surveys.json)]: Read surveys.json and create example instructions for your GPT so it can handle the Formbricks endpoints")
+        print_help()
         exit(0)
     if command == "get":
         api_key = sys.argv[2]
@@ -232,3 +236,6 @@ if __name__ == "__main__":
             exit(0)
         surveys = json.load(open(path))
         compose_instructions(surveys)
+    else:
+        print_help()
+        exit(0)
