@@ -155,7 +155,7 @@ But OpenAI requries us to be very specific about what exactly goes into each Act
 To generate the OpenAPI spec, simply run:
 > `python get_survey_meta.py oapi [PATH (default surveys.json)] [HOST (default: app.formbricks.com)]`
 
-This will create a `surveys_oapi.json` file that should comply with OpenAIs requirements for custom GPT actions. If you did not use the script to generate the `surveys.json` file, you can have a look at the [`example_surveys_oapi.json`](/assets/guides/formbricks-in-gpts/example_surveys_oapi.json) and copy and paste your IDs into it. Read the following section in case you run into any problems.
+This will create a `surveys_oapi.json` file that should comply with OpenAIs requirements for custom GPT actions. If you did not use the script to generate the `surveys.json` file, you can have a look at the [`example_surveys_oapi.json`](https://github.com/luona-dev/latestGPTs/blob/main/assets/guides/formbricks-in-gpts/example_surveys_oapi.json) and copy and paste your IDs into it. Read the following section in case you run into any problems.
 
 ### 🔍 Details about the created OpenAPI schema
 If you are only interested in the result, you can simply skip to [the next section](#️-adding-instructions). But if you want to understand what is going on, here are some details about the created OpenAPI schema.
@@ -204,7 +204,7 @@ With the script™ you can generate instructions for your survey like this:
 > `python formbricks_to_gpt.py instructions [PATH (default surveys.json)]`
 
 This will create an `surveys_instructions.md` file at your current location. The instructions include validation, to check if the rating is within the range that you specified in Formbricks, to check if the users choice is among the valid options, and it will check if the feedback is an english sentence and not nonsense. These validation steps are not meant to be a security measure, but rather to improve the user experience. People will be able to circumvent them if they want to.  
-Over [here](/assets/guides/formbricks-in-gpts/example_instructions.md) you can find a set of example instructions for a `/vote`, `/feedback` and `/rate` command. 
+[Over here](https://github.com/luona-dev/latestGPTs/blob/main/assets/guides/formbricks-in-gpts/example_surveys_instructions.md) you can find a set of example instructions for a `/vote`, `/feedback` and `/rate` command. 
 
 Side note: The generated instructions also include a reference to this article with the instructions to provide it if anyone asks for how the feedback, polls and reatings were implemented. If you don't want to include this, you can simply remove the last line of the generated instructions.
 
