@@ -7,6 +7,7 @@ def get_surveys(host: str, api_key: str) -> None:
     Get all surveys from the Formbricks API and save them to surveys.json
     """
     surveys = []
+    conn = None
     try:
         conn = http.client.HTTPSConnection(host, timeout=10)
         headers = {
@@ -21,7 +22,8 @@ def get_surveys(host: str, api_key: str) -> None:
         print("Omit the protocol (https://) and the trailing slash (/)")
         exit(1)
     finally:
-        conn.close()
+        if conn:
+            conn.close()
     json.dump(data, open("surveys.json", "w"), indent=4)
 
 
