@@ -10,6 +10,7 @@ GPTs are still a new and emerging technology, therefore we are conducting experi
 You can read more about our GPTs [here](/gpts/).
 - <img src="/assets/vuejs/vuejs-logo.svg" height="16" /> [Vue.js GPTs](/gpts/vuejs/)
 - <img src="/assets/fastapi/fastapi-logo.svg" height="20" style="margin-right:4px;"/>[FastAPI GPTs](/gpts/fastapi/)
+- <img src="/assets/gpts/tailwind/tailwind-logo.svg" height="16" /> [Tailwind CSS GPT](/gpts/tailwind/)
 - 🗳️ What's next? [You decide..](https://app.formbricks.com/s/clpiu0pdy2vylqg72ki5ikev0) 
 
 ## Guides and How-to's for custom GPTs and the Assistants API:

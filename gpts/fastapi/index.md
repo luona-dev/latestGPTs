@@ -1,5 +1,5 @@
 ---
-title: FastAPI GPTs from [latest] GPTs
+title: FastAPI GPTs from [latest] GPTs family
 description: A custom GPT coding assistant, equiped with knowledge of the latest FastAPI features and smart presets.
 layout: base
 date: 2023-11-22
@@ -18,7 +18,7 @@ Custom GPT coding assistants, equiped with knowledge of the latest FastAPI featu
 
 ## Presets
 
-The coding assistant is told to be a concise and meticulous Python developer that adheres to latest standards and best practices.
+The coding assistant is a concise and meticulous Python developer that adheres to latest standards and best practices.
 It should make excessive use of type hints and annotations. It is told to use Pydantic v2 features and sqlalchemy 2.0 with the new Typing API.
 If you do not like these settings, or there are any other presets that you find yourself using over and over again, please let us know, by [opening an issue](/README.md#contribution-guidelines).
 

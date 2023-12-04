@@ -6,8 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gpts.luona.dev" # the base hostname & protocol for your site
 
 header_pages:
-  - research/index.md
   - gpts/index.md
+  - research/index.md
 
 
 # Build settings
