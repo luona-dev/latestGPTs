@@ -16,6 +16,10 @@ def get_surveys(host: str, api_key: str) -> None:
         res = conn.getresponse()
         data = res.read()
         data = json.loads(data.decode("utf-8"))
+    except http.client.InvalidURL:
+        print(f"Invalid URL: {host}")
+        print("Omit the protocol (https://) and the trailing slash (/)")
+        exit(1)
     finally:
         conn.close()
     json.dump(data, open("surveys.json", "w"), indent=4)
@@ -63,7 +67,7 @@ def compose_openapi(surveys: dict, server: str) -> None:
             else:
                 raise Exception(f"\n\nThe formbricks question type: \"{question['type']}\" is not covered by this script.\nIt should be super easy to add though.\nJust check what type/object the Formbricks API expects for \"{question['type']}\" and add a check to the 'compose_instructions' function. Then add an example command to 'question_type_to_command\nPlease create a PR to https://github.com/luona-dev/latestGPTs if you implement it.")
     schema_base["paths"] = paths
-    schema_base["servers"] = [{"url": f"https://{host}/api/v1"}]
+    schema_base["servers"] = [{"url": f"https://{server}/api/v1"}]
     json.dump(schema_base, open("surveys_oapi.json", "w"), indent=4)
     print("Saved OpenAPI scheme for Actions to surveys_oapi.json")
 
