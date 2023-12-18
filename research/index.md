@@ -11,6 +11,7 @@ The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog
 - Research
     - [Instructions - How to address GPTs👋](/research/adressing-experiment/)
     - [Knowledge Retrieval - How to use knowledge files 🗂️](/research/knowledge-retrieval-experiment/)
+    - [Conversation Starters 🗣️](/research/conversation-starters/)
 
 ## Resources
 Feel free to add your own resources to this list by [creating a pull request](https://github.com/luona-dev/latestGPTs#contribution-guidelines).

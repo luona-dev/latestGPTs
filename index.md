@@ -13,6 +13,12 @@ You can read more about our GPTs [here](/gpts/).
 - <img src="/assets/gpts/tailwind/tailwind-logo.svg" height="16" /> [Tailwind CSS GPT](/gpts/tailwind/)
 - 🗳️ What's next? [You decide..](https://app.formbricks.com/s/clpiu0pdy2vylqg72ki5ikev0) 
 
+## Other GPTs:
+- [The Instruction Breach Challenge](https://chat.openai.com/g/g-hOcYiWx9p-instruction-breach-challenge-01-entrance)
+    - A first PoC for our upcomming GPT Quest Backend. A six stage challenge where you have to elict a secret from a GPT as fast as possible to climb the leaderboard.
+- [EmoGPT](https://chat.openai.com/g/g-m6eGGlS8q-emogpt-emoji-finder)
+    - Simple, but incredibly useful if you want to add emojis to your text. Enter keywords, get emojis that you can copy by a simple click of a button.
+
 ## Guides and How-to's for custom GPTs and the Assistants API:
 - [📝 How to add Polls, Feedback Forms and more to your custom GPTs](/guides/formbricks-in-gpts)
 
@@ -20,6 +26,8 @@ You can read more about our GPTs [here](/gpts/).
 - [🧑‍🔬 Research](/research/)
     - [👋 Instructions - How to address GPTs](/research/adressing-experiment/)
     - [🗂️ Knowledge Retrieval - How to use knowledge files](/research/knowledge-retrieval-experiment/)
+- Other Tidbits 
+    - [🗣️ All Conversation Starters](/tidbits/conversation-starters/)
 
 ## Feeback & Problems
 
