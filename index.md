@@ -27,7 +27,7 @@ You can read more about our GPTs [here](/gpts/).
     - [👋 Instructions - How to address GPTs](/research/adressing-experiment/)
     - [🗂️ Knowledge Retrieval - How to use knowledge files](/research/knowledge-retrieval-experiment/)
 - Other Tidbits 
-    - [🗣️ All Conversation Starters](/tidbits/conversation-starters/)
+    - [🗣️ All Conversation Starters](/research/conversation-starters/)
 
 ## Feeback & Problems
 
