@@ -14,7 +14,7 @@ Custom GPT coding assistants, equiped with knowledge of the latest Vue.js featur
 | GPT | Version | Last Update📅 | Notes🗒️ |
 |---|---|---|---|
 | [[latest] Vue.js GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.4.5 | 2023-11-23 | 😍 |
-| [[3.3.X] Vue.js GPT](https://chat.openai.com/g/g-SkVpjAT6u-3-3-x-vue-js-gpt) | 3.3.8 | 2023-11-23 | |
+| [[3.3.13] Vue.js GPT](https://chat.openai.com/g/g-SkVpjAT6u-3-3-x-vue-js-gpt) | 3.3.13 | 2023-11-23 | |
 | [[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) | ✖️ | 2023-11-17 | for testing purposes only |
 
 
@@ -47,7 +47,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
 - **Prompt:** `How can I style my components dynamically?`
@@ -59,7 +59,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
 ---
@@ -75,10 +75,10 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
-### Version 3.3.8
+### Version 3.3.13
 #### 🧪 console in \<template>
 
 - **Difficulty** :  🟢 Easy
@@ -90,7 +90,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
 - **Difficulty** : 🟠 Medium
@@ -101,7 +101,7 @@ As a comparison, each test is also conducted with "plain GPT" a GPT that has the
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
 ### 🧪 more ergnomic defineEmits type syntax
@@ -119,7 +119,7 @@ const emit = defineEmits<{
 | Version | Pass | Notes |
 |---|---|---|
 | latest | ✅ |   |
-| 3.3.8   | ✅ |   |
+| 3.3.13   | ✅ |   |
 | plain GPT | ❌ |   |
 
 
