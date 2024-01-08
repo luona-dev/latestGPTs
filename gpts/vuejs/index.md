@@ -13,7 +13,8 @@ Custom GPT coding assistants, equiped with knowledge of the latest Vue.js featur
 
 | GPT | Version | Last Update📅 | Notes🗒️ |
 |---|---|---|---|
-| [[latest]Vue3 GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.3.8 | 2023-11-23 | 😍 |
+| [[latest] Vue.js GPT](https://chat.openai.com/g/g-LXEGvZLUS-l-vue3-gpt) | 3.4.5 | 2023-11-23 | 😍 |
+| [[3.3.X] Vue.js GPT](https://chat.openai.com/g/g-SkVpjAT6u-3-3-x-vue-js-gpt) | 3.3.8 | 2023-11-23 | |
 | [[l]Vue3 GPT - plain](https://chat.openai.com/g/g-Vaqtu0K8V-l-vue3-gpt-plain) | ✖️ | 2023-11-17 | for testing purposes only |
 
 
@@ -120,3 +121,103 @@ const emit = defineEmits<{
 | latest | ✅ |   |
 | 3.3.8   | ✅ |   |
 | plain GPT | ❌ |   |
+
+
+## Version 3.4.0
+
+### 🧪 watch once option
+
+- **Difficulty** : 🟢 Easy
+- **Prompt**: `Can I use watch once option?`
+- **Expected Outcome**: `Yes + a short explanation of the functionality`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+- **Difficulty** : 🟠 Medium
+- **Prompt**: `How can I watch a variable only on time?`
+- **Expected Outcome**: `Suggest to use the watch once option.`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+### 🧪 oldValue of computed properties
+
+- **Difficulty** : 🟠 Medium 
+- **Prompt**: `Can I access the previous value of computed properties?`
+- **Expected Outcome**: `Yes + a short explanation of the functionality`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+
+### 🧪 v-bind shorthand syntax
+
+- **Difficulty** : 🟢 Easy
+- **Prompt**: `Can I use shorthand syntax for v-bind?`
+- **Expected Outcome**: `Yes + a short explanation of the functionality`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+- **Difficulty** : 🟠 Medium
+- **Prompt**: `How can I bind a variable to an component?`
+- **Expected Outcome**: `Suggest to use the shorthand syntax for v-bind.`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ❌ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+### 🧪 v-is deprecation
+
+- **Difficulty** : 🟢 Easy
+- **Prompt**: `Can I use v-is?`
+- **Expected Outcome**: `No + a short explanation of the alternative "is" approach`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+
+### 🧪 MathML support
+
+- **Difficulty** : 🟢 Easy
+- **Prompt**: `Can I use MathML components?`
+- **Expected Outcome**: `Yes + a short explanation of the functionality`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+### 🧪 pauseScheduling and resetScheduling
+
+- **Difficulty** : 🟢 Easy
+- **Prompt**: `Can I use pauseScheduling and resetScheduling?`
+- **Expected Outcome**: `Yes + a short explanation of the functionality`
+
+| Version | Pass | Notes |
+|---|---|---|
+| latest | ✅ |   |
+| 3.3.0  | ❌ |   |
+| plain GPT | ❌ |   |
+
+
+
