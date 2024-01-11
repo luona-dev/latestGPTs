@@ -11,5 +11,6 @@
 
 ## 2024-01-08:
 - Added knowledge up to Version 3.4.5
+    - Created Breakout Legacy GPT for Version 3.3.13
 - Improved System Prompt
 - Added prioritization of changes in the knowledge file to slightly improve retrieval time for most used new features.
