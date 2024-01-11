@@ -2,7 +2,7 @@
 title: Enhancing GPTs with Formbricks
 description: Learn how to add polls, star ratings and more to your custom GPTs for free.
 layout: post
-date: 2022-12-01
+date: 2023-12-01
 ---
 
 **📝 How to add Polls, Feedback Forms and more to your custom GPTs**
